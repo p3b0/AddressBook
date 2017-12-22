@@ -24,5 +24,6 @@ namespace AddressBook.Data
         }
 
         public DbSet<Person> People { get; set; }
+        public DbSet<AddressModel> Addresses { get; set; }
     }
 }
