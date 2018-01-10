@@ -8,7 +8,8 @@ namespace AddressBook.Models
 {
     public class Person
     {
-        [Required] public int PersonID { get; set; } 
+        [Required] public int PersonID { get; set; }
+        [Required] public int AddressModelID { get; set; }
         [Required] public string FirstName { get; set; }
         [Required] public string LastName { get; set; }
     }
